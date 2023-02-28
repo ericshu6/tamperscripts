@@ -12,5 +12,7 @@
 
 (function() {
     'use strict';
+    
+    // finds the "Login with ClassLink button" and clicks it
     document.getElementById("class-login").click();
 })();
