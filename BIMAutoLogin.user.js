@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         BIM Auto-Login
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  try to take over the world!
 // @author       Eric S.
 // @match        https://bigideaslearning.magicsw.com/login.htm?*
