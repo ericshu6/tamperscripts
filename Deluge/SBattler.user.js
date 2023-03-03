@@ -8,6 +8,7 @@
 // @grant        none
 // @namespace    https://greasyfork.org/users/767360
 // @require      https://code.jquery.com/jquery-3.6.3.min.js
+// @updateURL    https://github.com/GameBoyYeet/tamperscripts/raw/main/Deluge/SBattler.user.js
 // ==/UserScript==
 
 // Tweaked by Eric S.
