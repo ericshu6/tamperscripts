@@ -1,8 +1,7 @@
 // ==UserScript==
 // @name         DelugeRPG S-Battler
 // @match        https://www.delugerpg.com/battle*
-// @match        https://www.delugerpg.com/catch*
-// @version      1.0
+// @version      1.1
 // @description  Automatically uses the first poke and the first attack.
 // @author       redbrain
 // @icon         https://www.google.com/s2/favicons?domain=delugerpg.com
@@ -14,5 +13,10 @@
 // Tweaked by Eric S.
 
 setInterval(()=>{null==document.querySelector(".modal-open")&&document.querySelector(".btn-battle-action")?.click()},0);
-setInterval(()=>{null==document.querySelector(".modal-open")&&document.getElementsByClassName("btn btn-primary")[0].click()},500);
+setInterval(()=>{null==document.querySelector(".modal-open")&&document.getElementsByClassName("btn btn-primary")[0].click()},1500);
 setInterval(()=>{null==document.querySelector(".modal-open")&&document.querySelector('a[href="/map"]').click()},500);
+
+/* Changelog:
+1.1: Delay "btn btn-primary" click so your computer won't freeze
+1.0: Main code + tweaks
+*/
