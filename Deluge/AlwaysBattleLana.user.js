@@ -7,6 +7,7 @@
 // @match        https://www.delugerpg.com/trainers*
 // @icon         https://i.dstatic.com/favicon.ico
 // @grant        none
+// @updateURL    https://github.com/GameBoyYeet/tamperscripts/raw/main/Deluge/AlwaysBattleLana.user.js
 // ==/UserScript==
 
 (function() {
