@@ -8,6 +8,7 @@
 // @grant        none
 // @namespace    https://greasyfork.org/users/767360
 // @require      https://code.jquery.com/jquery-3.6.3.min.js
+// @updateURL    https://github.com/GameBoyYeet/tamperscripts/raw/main/Deluge/SBattler.user.js
 // ==/UserScript==
 
 setInterval(()=>{null==document.querySelector(".modal-open")&&document.querySelector('input[value=" Skip Pokemon Selection "]').click()},300);
