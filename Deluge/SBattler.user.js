@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DelugeRPG S-Battler
 // @match        https://www.delugerpg.com/battle*
-// @version      1.4
+// @version      1.4.1
 // @description  Automatically uses the first poke and the first attack.
 // @author       Eric S.
 // @icon         https://www.google.com/s2/favicons?domain=delugerpg.com
@@ -21,6 +21,7 @@ if (!!document.getElementsByClassName("notify_error")[0])
 }
 
 /* Changelog:
+1.4.1: @updateURL
 1.4: Check for "One battle every 10 seconds" error, this script is practically mine at this point
 1.3: Delay battle button clicks so your computer won't freeze
 1.2: Try to click "Skip Pokemon Selection" whenever possible
