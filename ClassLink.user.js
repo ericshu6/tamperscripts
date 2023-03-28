@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         CVUSD ClassLink
-// @namespace    http://github.com/gameboyyeet/tamperscripts
+// @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Redirects to ClassLink SSO
-// @author       Eric S.
-// @match        https://apps.explorelearning.com/account/gizmos/login/student*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=explorelearning.com
+// @description  try to take over the world!
+// @author       You
+// @match        https://launchpad.classlink.com
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=magicsw.com
 // @grant        none
 // ==/UserScript==
 
 (function() {
     'use strict';
 
-    window.location.href = "https://launchpad.classlink.com/ltisso/1870659";
+    window.location.href = "https://launchpad.classlink.com/conejousd";
 })();
