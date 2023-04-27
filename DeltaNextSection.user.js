@@ -12,5 +12,5 @@
 (function() {
     'use strict';
 
-    setInterval(function () {document.getElementsByClassName("btn btn-default btn-sm")[1].click();}, 200);
+    setInterval(function () {document.getElementsByClassName("btn btn-default btn-sm")[1].click();}, 500);
 })();
