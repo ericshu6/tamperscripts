@@ -7,6 +7,7 @@
 // @match        https://www.deltamath.com/app/student/*
 // @icon         http://deltamath.com/favicon.ico
 // @grant        none
+// @updateURL    https://github.com/GameBoyYeet/tamperscripts/raw/main/DeltaNextSection.user.js
 // ==/UserScript==
 
 (function() {
